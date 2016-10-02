@@ -1,0 +1,26 @@
+body {
+	margin: auto;
+}
+
+/*----HEADER----*/
+
+header {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: gray; /*colour a modifier*/
+    font-size: 20px;
+}
+
+#logocoda {
+	width: 100px;
+}
+
+nav {
+
+}
+
+nav li {
+	display: inline;
+}
