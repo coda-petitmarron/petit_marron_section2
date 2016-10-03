@@ -1,3 +1,9 @@
+*{ /* RESET CSS */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	margin: auto;
 }
@@ -9,18 +15,87 @@ header {
     top: 0;
     width: 100%;
     text-align: center;
-    background-color: white;
-    font-size: 20px;
+	background: linear-gradient(to right, white, #E00944);
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    height: 170px;
+
 }
 
-#logocoda {
-	width: 100px;
+#logocoda{
+	margin: 10px;
+	margin-left: 80px;
+	float: left;
+	width: 150px;
 }
 
 nav {
-
+	float: right;
+	margin-top: 65px;
+	margin-right: 100px;
 }
 
 nav li {
 	display: inline;
+	margin: 20px;
 }
+
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover{
+	color: #E00944;
+}
+
+#bigSection{
+	margin-top: 170px;
+	text-align: center;
+	background-color: green;
+	height : 100%;
+	width: 100%;
+}
+
+
+
+#one, #two, #three{
+	width: 50%;
+	padding: 10px;
+	background-color: grey;
+}
+
+#two, #three{
+	display: none;
+}
+
+
+/*Section 1*/
+
+#one{
+	height: 500px;
+}
+
+#video{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	height: 200px;
+	width: 100%;
+	background-color: #211E1E;
+	position: absolute;
+	bottom: 0;
+}
+
