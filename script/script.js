@@ -21,6 +21,9 @@ $(document).ready(function(){
 	});
 
 
+	$(document).scroll(function(){
+    	$("#logocoda").animate({width:'110px'});
+	});
 
 
 });

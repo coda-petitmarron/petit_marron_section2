@@ -94,11 +94,12 @@ nav li {
 nav li a{
 	text-decoration: none;
 	color: black;
+	transition: all 0.5s;
 }
 
 nav li a:hover{
 	color: #E00944;
-	border-bottom: 3px solid  #E00944;
+	
 
 }
 
@@ -146,7 +147,13 @@ nav li a:hover{
 .partenaires img{
 	height: 100px;
 	margin: 30px;
+	transition: all 0.5s;
 
+}
+
+.partenaires img:hover{
+-webkit-filter: brightness(70%); /* Chrome, Safari, Opera */
+	    filter: brightness(70%);
 }
 
 .titre
